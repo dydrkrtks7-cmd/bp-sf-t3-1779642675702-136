@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="bpaas-design-system" content="brutalist-avantgarde">
+    <meta name="bpaas-design-theme" content="kr-raw-concrete">
+    <meta name="description" content="마포 셔츠룸 AI트렌드 블로그 - AI가 바꾼 셔츠룸 문화의 모든 것. 마포에서 직접 체험한 셔츠룸의 새로운 패러다임. 진짜 솔직한 후기">
+    <meta name="keywords" content="마포 셔츠룸, 마포구 셔츠룸, AI 셔츠룸, 셔츠룸 블로그, 셔츠룸 후기, AI트렌드, 마포 놀거리">
+    <meta property="og:title" content="마포 셔츠룸 AI트렌드 블로그 - 셔츠룸의 진화">
+    <meta property="og:description" content="AI 기술이 접목된 마포 셔츠룸의 새로운 트렌드. 직접 경험하고 쓰는 솔직 블로그">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sf-t3-177">
+    <title>마포 셔츠룸 AI트렌드 블로그</title>
+    <style>
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html {
+            font-size: 16px;
+            scroll-behavior: smooth;
+        }
+        body {
+            font-family: 'Courier New', 'IBM Plex Mono', monospace;
+            background: #1a1a1a;
+            color: #e0e0e0;
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: -0.02em;
+            color: #f5a623;
+        }
+        h1 {
+            font-size: 3.5rem;
+            line-height: 1.1;
+            margin-bottom: 1.5rem;
+            border-left: 8px solid #f5a623;
+            padding-left: 1rem;
+        }
+        h2 {
+            font-size: 2.2rem;
+            margin: 2.5rem 0 1rem;
+            border-bottom: 3px solid #f5a623;
+            padding-bottom: 0.5rem;
+        }
+        h3 {
+            font-size: 1.6rem;
+            margin: 2rem 0 0.8rem;
+        }
+        a {
+            color: #f5a623;
+            text-decoration: none;
+            font-weight: 700;
+            border-bottom: 2px solid transparent;
+            transition: all 0.2s ease;
+        }
+        a:hover {
+            border-bottom-color: #f5a623;
+            color: #ffd700;
+        }
+        img, svg {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem 1.5rem;
+        }
+        @media (max-width: 768px) {
+            .container {
+                padding: 1rem;
+            }
+            h1 {
+                font-size: 2.2rem;
+                border-left-width: 5px;
+            }
+            h2 {
+                font-size: 1.6rem;
+            }
+            h3 {
+                font-size: 1.3rem;
+            }
+        }
+        /* 네비게이션 */
+        nav {
+            background: #2a2a2a;
+            border-bottom: 4px solid #f5a623;
+            padding: 0.8rem 1.5rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        nav .logo {
+            font-size: 1.4rem;
+            font-weight: 900;
+            color: #f5a623;
+            text-transform: uppercase;
+            letter-spacing: -0.03em;
+        }
+        nav .nav-links {
+            display: flex;
+            gap: 1.5rem;
+            align-items: center;
+        }
+        nav .nav-links a {
+            font-size: 0.95rem;
+            padding: 0.4rem 0;
+            border-bottom: 2px solid transparent;
+        }
+        nav .nav-links a:hover {
+            border-bottom-color: #f5a623;
+        }
+        .hamburger-menu {
+            display: none;
+            flex-direction: column;
+            gap: 5px;
+            cursor: pointer;
+            background: none;
+            border: none;
+            padding: 5px;
+        }
+        .hamburger-menu span {
+            width: 28px;
+            height: 3px;
+            background: #f5a623;
+            border-radius: 2px;
+            transition: 0.3s;
+        }
+        .tel-link {
+            background: #f5a623;
+            color: #1a1a1a !important;
+            padding: 0.5rem 1.2rem !important;
+            border-radius: 4px;
+            font-weight: 800;
+            border: none !important;
+        }
+        .tel-link:hover {
+            background: #ffd700;
+            color: #1a1a1a !important;
+        }
+        @media (max-width: 768px) {
+            nav {
+                padding: 0.6rem 1rem;
+            }
+            nav .nav-links {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: #2a2a2a;
+                flex-direction: column;
+                padding: 1rem;
+                border-bottom: 4px solid #f5a623;
+                gap: 0.8rem;
+            }
+            nav .nav-links.active {
+                display: flex;
+            }
+            .hamburger-menu {
+                display: flex;
+            }
+            .tel-link {
+                display: inline-block;
+                text-align: center;
+            }
+        }
+        /* 블로그 카드 스타일 */
+        .blog-card {
+            background: #2a2a2a;
+            border: 2px solid #3a3a3a;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+            transition: border-color 0.3s;
+        }
+        .blog-card:hover {
+            border-color: #f5a623;
+        }
+        .blog-card .meta {
+            font-size: 0.85rem;
+            color: #888;
+            margin-bottom: 1rem;
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+        .blog-card .meta span {
+            background: #1a1a1a;
+            padding: 0.2rem 0.6rem;
+            border-radius: 3px;
+        }
+        .blog-card p {
+            margin-bottom: 1rem;
+        }
+        .blog-card .highlight-box {
+            background: #1a1a1a;
+            border-left: 5px solid #f5a623;
+            padding: 1.2rem;
+            margin: 1.5rem 0;
+            font-style: italic;
+        }
+        .blog-card ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        .blog-card ul li {
+            padding: 0.5rem 0;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+        .blog-card ul li::before {
+            content: '▸';
+            position: absolute;
+            left: 0;
+            color: #f5a623;
+            font-weight: bold;
+        }
+        .cta-box {
+            background: linear-gradient(135deg, #2a2a2a, #1a1a1a);
+            border: 3px solid #f5a623;
+            padding: 2rem;
+            text-align: center;
+            margin: 2rem 0;
+            border-radius: 8px;
+        }
+        .cta-box .cta-phone {
+            font-size: 2rem;
+            font-weight: 900;
+            color: #f5a623;
+            display: block;
+            margin: 0.5rem 0;
+            letter-spacing: 2px;
+        }
+        .cta-box .cta-phone:hover {
+            color: #ffd700;
+        }
+        @media (max-width: 768px) {
+            .blog-card {
+                padding: 1.2rem;
+            }
+            .cta-box .cta-phone {
+                font-size: 1.5rem;
+            }
+        }
+        /* 푸터 */
+        footer {
+            background: #2a2a2a;
+            border-top: 4px solid #f5a623;
+            padding: 2rem 1.5rem;
+            text-align: center;
+            margin-top: 3rem;
+        }
+        footer p {
+            font-size: 0.85rem;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">마포AI셔츠룸</div>
+        <button class="hamburger-menu" onclick="document.querySelector('.nav-links').classList.toggle('active')">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <div class="nav-links">
+            <a href="index.html">홈</a>
+            <a href="about.html">소개</a>
+            <a href="blog.html">블로그</a>
+            <a href="review.html">후기</a>
+            <a href="faq.html">FAQ</a>
+            <a href="tel:01062790862" class="tel-link">📞 010-6279-0862</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>마포 셔츠룸 AI트렌드 블로그</h1>
+        <p style="font-size:1.2rem; margin-bottom:2rem;">AI 기술이 바꾼 셔츠룸의 새로운 세계. 내가 직접 경험하고 쓰는 솔직한 이야기들.</p>
+
+        <div class="blog-card">
+            <div class="meta">
+                <span>📅 2025.07.15</span>
+                <span>✍️ 마포셔츠룸맨</span>
+                <span>🏷️ AI트렌드 / 셔츠룸 후기</span>
+            </div>
+            <h2>AI가 만든 셔츠룸? 마포에서 직접 체험해봤다</h2>
+            <p>야, 진짜 솔직히 말할게. 나 원래 셔츠룸 같은 곳엔 관심 없었어. 그냥 친구가 "요즘 마포에 셔츠룸 AI트렌드라는 게 대박이래" 해서 반강제로 끌려갔거든. 근데? 완전 내가 생각했던 거랑 달랐어.</p>
+            
+            <p>들어가자마자 느낀 건데, 여긴 그냥 술 마시고 노는 곳이 아니야. AI가 개인 취향에 맞춰서 추천해주는 시스템이 있더라고. 처음엔 "에이, 다 거기서 거기지" 싶었는데, 막상 해보니까 신세계였음.</p>
+
+            <div class="highlight-box">
+                "AI가 내 스타일을 분석해서 딱 맞는 분위기와 옵션을 추천해줬어. 
+                심지어 대화 주제도 AI가 실시간으로 제안해주니까 어색함 제로. 
+                이건 진짜 혁신이다."
+            </div>
+
+            <h3>✅ 마포 셔츠룸 AI트렌드의 핵심 포인트</h3>
+            <ul>
+                <li><strong>AI 맞춤 추천:</strong> 처음 방문하면 간단한 취향 설문을 하고, AI가 너에게 딱 맞는 스타일을 제시해줘. 옷부터 분위기까지 다 맞춤이야.</li>
+                <li><strong>실시간 분위기 조절:</strong> 조명, 음악, 심지어 향기까지 AI가 상황에 맞게 바꿔줘. 내가 원하는 분위기를 말로만 설명하면 바로 적용됨.</li>
+                <li><strong>스마트 대화 시스템:</strong> AI가 대화 주제를 추천해주고, 심심할 때는 재미있는 게임도 제안해줘. 덕분에 처음 가는 사람도 편하게 즐길 수 있어.</li>
+                <li><strong>개인화된 경험:</strong> 방문할 때마다 AI가 전에 왔던 기록을 기억해서 더 나은 경험을 만들어줘. 마치 단골집 같은 느낌?</li>
+            </ul>
+
+            <h3>💡 솔직한 후기</h3>
+            <p>처음에는 "AI가 뭘 안다고" 하는 생각이 컸어. 근데 막상 체험해보니까 기술이 진짜 사람을 이해하려고 노력한다는 게 느껴졌어. 예를 들어, 내가 긴장한 걸 AI가 감지해서 음악을 잔잔한 걸로 바꿔주고, 대화 주제도 가벼운 걸로 바꿔주더라고. 이런 세심함에 감동했음.</p>
+            
+            <p>가격도 생각보다 합리적이야. 일반 셔츠룸이랑 비슷한 수준인데, AI 기술이 추가된 걸 생각하면 오히려 가성비 좋은 느낌? 친구들이랑 여럿이 가면 더 재밌어. 나도 다음에 또 갈 생각이야.</p>
+
+            <div class="cta-box">
+                <p style="font-size:1.1rem; margin-bottom:0.5rem;">🔥 직접 경험해보고 싶다면?</p>
+                <a href="tel:01062790862" class="cta-phone">📞 010-6279-0862</a>
+                <p style="margin-top:0.8rem; font-size:0.9rem;">지금 전화하면 AI 맞춤 추천 무료로 받을 수 있어!</p>
+            </div>
+
+            <h3>⚠️ 주의할 점</h3>
+            <p>물론 단점도 있음. AI 시스템이 처음이라 가끔 내가 원하는 걸 정확히 이해 못 할 때도 있어. 그럴 땐 직접 말로 하면 바로 수정해주니까 크게 문제는 없었어. 그리고 인기가 많아서 주말에는 예약이 필수야. 나도 친구랑 가려다가 자리 없어서 평일로 미뤘던 적 있음.</p>
+
+            <p>총평? <strong>완전 추천</strong>. 특히 새로운 걸 좋아하는 사람, 색다른 경험을 원하는 사람한테 딱이야. 셔츠룸에 AI가 접목되다니, 이게 바로 진짜 트렌드 아닐까? 마포 셔츠룸 AI트렌드, 한 번쯤은 꼭 가보길 바래.</p>
+        </div>
+
+        <div style="background:#2a2a2a; border:2px solid #3a3a3a; padding:1.5rem; border-radius:8px; margin-top:2rem;">
+            <h3 style="margin-top:0;">관련 글 미리보기</h3>
+            <p style="margin:1rem 0;">다음 블로그에서는 <strong>마포 셔츠룸 AI트렌드의 실제 후기 모음</strong>과 <strong>AI 시스템 사용 꿀팁</strong>을 준비 중이야. 궁금하면 전화해서 물어봐도 돼!</p>
+            <a href="tel:01062790862" class="tel-link" style="display:inline-block; margin-top:0.5rem;">📞 010-6279-0862</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2025 마포 셔츠룸 AI트렌드 | 솔직한 후기와 생생한 정보 | <a href="tel:01062790862">📞 010-6279-0862</a></p>
+        <p style="margin-top:0.5rem;">*본 블로그는 실제 경험을 바탕으로 작성된 솔직한 후기입니다.</p>
+    </footer>
+
+    <script>
+        // 모바일 네비게이션 토글
+        document.querySelector('.hamburger-menu').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+
+        // 외부 클릭 시 네비게이션 닫기
+        document.addEventListener('click', function(event) {
+            const nav = document.querySelector('nav');
+            const navLinks = document.querySelector('.nav-links');
+            if (!nav.contains(event.target) && navLinks.classList.contains('active')) {
+                navLinks.classList.remove('active');
+            }
+        });
+    </script>
+</body>
+</html>
