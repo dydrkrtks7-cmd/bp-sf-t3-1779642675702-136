@@ -1,218 +1,182 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://sf-t3-1779642675702-136.maphoshirts.com/</loc>
-    <lastmod>2026-06-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
     <loc>https://sf-t3-1779642675702-136.maphoshirts.com/about.html</loc>
-    <lastmod>2026-06-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://sf-t3-1779642675702-136.maphoshirts.com/blog.html</loc>
-    <lastmod>2026-06-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://sf-t3-1779642675702-136.maphoshirts.com/posts/guide-001-1xh1sdv.html</loc>
-    <lastmod>2026-06-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://sf-t3-1779642675702-136.maphoshirts.com/posts/qa-002-1xh1sdv.html</loc>
-    <lastmod>2026-06-10</lastmod>
+    <loc>https://sf-t3-1779642675702-136.maphoshirts.com/blog.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sf-t3-1779642675702-136.maphoshirts.com/</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://sf-t3-1779642675702-136.maphoshirts.com/posts/gemini-coverage-20260705-1391.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://sf-t3-1779642675702-136.maphoshirts.com/posts/gemini-coverage-20260705-880.html</loc>
-    <lastmod>2026-07-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://sf-t3-1779642675702-136.maphoshirts.com/posts/gemini-coverage-20260705-1391.html</loc>
-    <lastmod>2026-07-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://sf-t3-1779642675702-136.maphoshirts.com/posts/gemini-coverage-20260706-0129.html</loc>
-    <lastmod>2026-07-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://sf-t3-1779642675702-136.maphoshirts.com/posts/gemini-coverage-20260706-0130.html</loc>
-    <lastmod>2026-07-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://sf-t3-1779642675702-136.maphoshirts.com/posts/gemini-coverage-20260706-0131.html</loc>
-    <lastmod>2026-07-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://sf-t3-1779642675702-136.maphoshirts.com/posts/gemini-coverage-20260706-0132.html</loc>
-    <lastmod>2026-07-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://sf-t3-1779642675702-136.maphoshirts.com/posts/gemini-coverage-20260706-0133.html</loc>
-    <lastmod>2026-07-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://sf-t3-1779642675702-136.maphoshirts.com/posts/gemini-coverage-20260706-0134.html</loc>
-    <lastmod>2026-07-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://sf-t3-1779642675702-136.maphoshirts.com/posts/gemini-coverage-20260706-0135.html</loc>
-    <lastmod>2026-07-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://sf-t3-1779642675702-136.maphoshirts.com/posts/gemini-coverage-20260706-0136.html</loc>
-    <lastmod>2026-07-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://sf-t3-1779642675702-136.maphoshirts.com/posts/gemini-coverage-20260706-0137.html</loc>
-    <lastmod>2026-07-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://sf-t3-1779642675702-136.maphoshirts.com/posts/gemini-coverage-20260706-0138.html</loc>
-    <lastmod>2026-07-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://sf-t3-1779642675702-136.maphoshirts.com/posts/gemini-coverage-20260706-0139.html</loc>
-    <lastmod>2026-07-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://sf-t3-1779642675702-136.maphoshirts.com/posts/gemini-coverage-20260706-0140.html</loc>
-    <lastmod>2026-07-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://sf-t3-1779642675702-136.maphoshirts.com/posts/gemini-coverage-20260706-0141.html</loc>
-    <lastmod>2026-07-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://sf-t3-1779642675702-136.maphoshirts.com/posts/gemini-coverage-20260706-0142.html</loc>
-    <lastmod>2026-07-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://sf-t3-1779642675702-136.maphoshirts.com/posts/gemini-coverage-20260706-0143.html</loc>
-    <lastmod>2026-07-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://sf-t3-1779642675702-136.maphoshirts.com/posts/gemini-coverage-20260706-0144.html</loc>
-    <lastmod>2026-07-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://sf-t3-1779642675702-136.maphoshirts.com/posts/gemini-coverage-20260721-0308.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://sf-t3-1779642675702-136.maphoshirts.com/posts/gemini-coverage-20260721-0309.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://sf-t3-1779642675702-136.maphoshirts.com/posts/gemini-coverage-20260722-0177.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://sf-t3-1779642675702-136.maphoshirts.com/posts/gemini-coverage-20260722-0178.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://sf-t3-1779642675702-136.maphoshirts.com/posts/gemini-coverage-20260722-0179.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://sf-t3-1779642675702-136.maphoshirts.com/posts/gemini-coverage-20260722-0180.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://sf-t3-1779642675702-136.maphoshirts.com/posts/gemini-coverage-20260722-0181.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://sf-t3-1779642675702-136.maphoshirts.com/posts/gemini-coverage-20260722-0182.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://sf-t3-1779642675702-136.maphoshirts.com/posts/gemini-coverage-20260722-0183.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://sf-t3-1779642675702-136.maphoshirts.com/posts/gemini-coverage-20260722-0184.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://sf-t3-1779642675702-136.maphoshirts.com/posts/gemini-coverage-20260722-0185.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://sf-t3-1779642675702-136.maphoshirts.com/posts/gemini-coverage-20260722-0186.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://sf-t3-1779642675702-136.maphoshirts.com/posts/gemini-coverage-20260722-0187.html</loc>
-    <lastmod>2026-07-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sf-t3-1779642675702-136.maphoshirts.com/posts/guide-001-1xh1sdv.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sf-t3-1779642675702-136.maphoshirts.com/posts/qa-002-1xh1sdv.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
